@@ -18,6 +18,11 @@ namespace AgilePrinciplesPatternsAndPracticesC_.CH04
             throw new NotImplementedException();
         }
 
+        public int GetPlayerRoom(int v)
+        {
+            throw new NotImplementedException();
+        }
+
         public int GetPlayerRoom()
         {
             throw new NotImplementedException();

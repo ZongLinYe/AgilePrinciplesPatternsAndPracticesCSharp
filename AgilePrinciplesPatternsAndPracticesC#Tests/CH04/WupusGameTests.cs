@@ -16,7 +16,7 @@ namespace AgilePrinciplesPatternsAndPracticesC_.CH04.Tests
         {
             WupusGame game = new WupusGame();
             game.Connect(1, 2, "N");
-            game.GetPlayerRoom();
+            game.GetPlayerRoom(4);
             game.East();
             Assert.AreEqual(2, game.GetPlayerRoom());
     
