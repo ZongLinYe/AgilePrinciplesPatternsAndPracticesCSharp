@@ -1,4 +1,7 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿///<remarks>
+/// 新增 2~500 所產生的質數列表中沒有倍數的存在
+/// </remarks>
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 using AgilePrinciplesPatternsAndPracticesC_.CH05;
 using System;
 using System.Collections.Generic;
