@@ -25,7 +25,7 @@ namespace CH22_V2
             string fahrString = input.ReadLine();
             if (string.IsNullOrEmpty(fahrString))
             {
-                SetDone();
+                IsDone = true;
             }
             else
             {

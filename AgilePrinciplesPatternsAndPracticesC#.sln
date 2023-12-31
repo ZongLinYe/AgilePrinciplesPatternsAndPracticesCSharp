@@ -7,9 +7,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AgilePrinciplesPatternsAndP
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AgilePrinciplesPatternsAndPracticesC#Tests", "AgilePrinciplesPatternsAndPracticesC#Tests\AgilePrinciplesPatternsAndPracticesC#Tests.csproj", "{7CBC6CD5-047F-49F6-95D3-61638AB93315}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CH22_Template_Method_V1", "CH22\CH22_Template_Method_V1.csproj", "{972D3A20-9591-4A0D-BBDF-773CE66C5256}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CH22_Template_Method_V1", "CH22\CH22_Template_Method_V1.csproj", "{972D3A20-9591-4A0D-BBDF-773CE66C5256}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CH22_Template_Method_V2", "CH22_V2\CH22_Template_Method_V2.csproj", "{7E615FAF-552E-400E-9B67-E8210CAA9DE5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CH22_Template_Method_FToC_V2", "CH22_V2\CH22_Template_Method_FToC_V2.csproj", "{7E615FAF-552E-400E-9B67-E8210CAA9DE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CH22_Template_Method_BubbleSorter_V1", "CH22_Template_Method_BubleSorter_V1\CH22_Template_Method_BubbleSorter_V1.csproj", "{31AA0031-0206-4AAE-8C0A-EC1D2C492FD4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CH22_Template_Method_Practice", "CH22_Template_Method_Practice\CH22_Template_Method_Practice.csproj", "{5D013342-1FD2-40D9-8551-CEBBE80686AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CH22_Template_Method_BubbleSorter_V2", "CH22_Template_Method_BubbleSorter_V2\CH22_Template_Method_BubbleSorter_V2.csproj", "{E467F0EF-5582-4509-BDF9-E7A81783E903}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CH22_Strategy_FToC_V1", "CH22_Strategy_FToC_V1\CH22_Strategy_FToC_V1.csproj", "{6689D9E4-2405-4620-B9EA-FFDDBAB8AA3D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CH22_Strategy_BubbleSorter_V1", "CH22_Strategy_BubbleSorter_V1\CH22_Strategy_BubbleSorter_V1.csproj", "{9ACA6390-826C-44B5-BC7F-C9A56060E0F4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +43,26 @@ Global
 		{7E615FAF-552E-400E-9B67-E8210CAA9DE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7E615FAF-552E-400E-9B67-E8210CAA9DE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7E615FAF-552E-400E-9B67-E8210CAA9DE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31AA0031-0206-4AAE-8C0A-EC1D2C492FD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31AA0031-0206-4AAE-8C0A-EC1D2C492FD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31AA0031-0206-4AAE-8C0A-EC1D2C492FD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31AA0031-0206-4AAE-8C0A-EC1D2C492FD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D013342-1FD2-40D9-8551-CEBBE80686AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D013342-1FD2-40D9-8551-CEBBE80686AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D013342-1FD2-40D9-8551-CEBBE80686AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D013342-1FD2-40D9-8551-CEBBE80686AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E467F0EF-5582-4509-BDF9-E7A81783E903}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E467F0EF-5582-4509-BDF9-E7A81783E903}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E467F0EF-5582-4509-BDF9-E7A81783E903}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E467F0EF-5582-4509-BDF9-E7A81783E903}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6689D9E4-2405-4620-B9EA-FFDDBAB8AA3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6689D9E4-2405-4620-B9EA-FFDDBAB8AA3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6689D9E4-2405-4620-B9EA-FFDDBAB8AA3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6689D9E4-2405-4620-B9EA-FFDDBAB8AA3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9ACA6390-826C-44B5-BC7F-C9A56060E0F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9ACA6390-826C-44B5-BC7F-C9A56060E0F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9ACA6390-826C-44B5-BC7F-C9A56060E0F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9ACA6390-826C-44B5-BC7F-C9A56060E0F4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
